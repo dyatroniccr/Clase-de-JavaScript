@@ -9,8 +9,18 @@ const spinChamber = () => {
 
 // Remove the // below and complete the commented lines
 const fireGun = (bulletPosition) => {
-    // if (... === firePosition) return ("You're dead!");
+    for (let i=1; i<=6; i++){
+        // if (... === firePosition) return ("You're dead!");
+    if (bulletPosition == 1 ) {
+        return ("You're dead!");
+    } 
     // else return ("Keep playing!");
+    else {
+        return ("Keep playing!");
+    }
+
+    }
+    
 };
 
 console.log(fireGun(spinChamber()));
